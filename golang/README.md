@@ -3,7 +3,7 @@
 1. [Install Golang](https://golang.org/doc/install) and ensure that your cloned repository is in your GOPATH.
 2. Update the following information in the [examples/server_test.go](examples/server_test.go#L20) file.  
 
-	*NOTE: This information can obtained by logging in to your IBM Cloud account and viewing your Hyper Protect Crypto Serverices (HPCS) instance and IAM information. See the [GREP11 API documentation](https://test.cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-grep11-api-ref) for more information about GREP11*.
+	*NOTE: This information can be obtained by logging in to your IBM Cloud account and viewing your Hyper Protect Crypto Serverices (HPCS) instance and IAM information. See the [GREP11 API documentation](https://cloud.ibm.com/docs/services/hs-crypto?topic=hs-crypto-grep11-api-ref) for more information about GREP11*.
 
 	```Golang
 	// The following IBM Cloud items need to be changed prior to running the sample program
@@ -19,9 +19,9 @@
 	}
 	```
 		
-3. `cd $GOPATH/src/github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples`
-4. Execute the examples by issuing the command: `go test -v`
-5. The sample program produces output similar to the following:
+3. Change the directory by running `cd $GOPATH/src/github.com/ibm-developer/ibm-cloud-hyperprotectcrypto/golang/examples`
+4. Execute the sample programs by issuing the command: `go test -v`
+5. The sample program returns output similar to the following:
 
     ```Bash
 	=== RUN   Example_getMechanismInfo
